@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="똥이어리 앱 개인정보처리방침 - HYUN Studio">
+  <title>똥이어리 개인정보처리방침 | HYUN Studio</title>
+  <style>
+    :root{--ink:#49382e;--sub:#75675e;--line:#ebdcd0;--warm:#fff6ef;--accent:#a15c42;}
+    *{box-sizing:border-box}
+    body{margin:0;background:#fffaf5;color:var(--ink);font-family:system-ui,-apple-system,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;line-height:1.75}
+    .banner{background:linear-gradient(135deg,#fbe8da 0%,#fff7ee 100%);padding:58px 20px 42px;text-align:center;border-bottom:1px solid var(--line)}
+    .eyebrow{font-size:14px;color:var(--accent);font-weight:650;letter-spacing:.05em}
+    h1{font-size:clamp(25px,5vw,36px);margin:10px 0 12px;line-height:1.3}
+    .banner p{font-size:14px;color:var(--sub);margin:0}
+    main{max-width:800px;margin:0 auto;padding:20px 20px 68px}
+    .meta{background:white;border:1px solid var(--line);border-radius:14px;padding:15px 20px;margin:20px 0 26px;font-size:14px}
+    .meta p{margin:4px 0}section{padding:22px 4px;border-bottom:1px solid var(--line)}
+    h2{font-size:19px;line-height:1.5;margin:0 0 9px}section p{margin:0;font-size:15px;color:#5b4c43;word-break:keep-all}
+    a{color:#824b39;overflow-wrap:anywhere}
+    footer{text-align:center;padding:18px;font-size:13px;color:var(--sub)}
+  </style>
+</head>
+<body>
+<header class="banner"><div class="eyebrow">HYUN Studio</div><h1>똥이어리 개인정보처리방침</h1><p>소중한 생활 기록이 어떻게 처리되는지 안내합니다.</p></header>
+<main>
+  <div class="meta">
+    <p><strong>앱 이름:</strong> 똥이어리</p>
+    <p><strong>운영자:</strong> HYUN Studio</p>
+    <p><strong>시행일:</strong> 2026년 11월 17일</p>
+    <p><strong>개인정보 문의:</strong> <a href="mailto:hyunjin09391263@gmail.com">hyunjin09391263@gmail.com</a></p>
+  </div>
+  <section aria-labelledby="s1"><h2 id="s1">처리하는 정보와 사용 목적</h2><p>똥이어리는 배변 날짜·시각, 1~5점 느낌 점수, 사용자가 선택적으로 입력하는 증상·최근 먹은 음식·메모를 기록합니다. 과거 기록이나 백업 파일에는 변 형태와 무배변 확인 날짜가 포함될 수 있습니다. 현재 신규 기록 화면에는 변 형태 선택 기능이 없습니다. 이 정보는 기기에서 기록 목록, 달력, 통계, 검색 및 도감 기능을 제공하는 데 사용됩니다.</p></section>
+<section aria-labelledby="s2"><h2 id="s2">보관 위치와 보호 방법</h2><p>주요 기록은 사용자의 기기 안에 보호된 앱 저장소(Flutter Secure Storage)를 통해 보관합니다. 현재 똥이어리는 사용자 계정 생성이나 운영자 자체 서버로의 동기화 기능을 제공하지 않습니다. 다만 OS, 사용자가 선택한 파일 제공자 및 라이브러리의 동작은 앱의 직접 저장과 구분됩니다. 기기에 대한 물리적 접근이나 운영체제 상태 등에 따라 보호 수준에는 차이가 있을 수 있습니다.</p></section>
+<section aria-labelledby="s3"><h2 id="s3">홈 화면 위젯</h2><p>첫 사용일, 마지막 배변 기록일, 오늘 기록 횟수 같은 요약 정보는 위젯 동작을 위해 별도의 앱 전용 로컬 저장소에 보관될 수 있습니다. 음식, 증상 및 자유 메모 본문은 위젯으로 전달되지 않습니다. 위젯에 표시되는 요약 내용은 휴대전화 화면을 보는 다른 사람에게 노출될 수 있습니다.</p></section>
+<section aria-labelledby="s4"><h2 id="s4">백업 파일 및 외부 제공자</h2><p>사용자가 백업을 선택하면 배변 기록이 암호화되지 않은 JSON 파일로 만들어집니다. 파일은 사용자가 직접 고르는 기기 저장소 또는 파일 제공자(클라우드 저장소 포함 가능)에 보관됩니다. 외부 제공자에게 전달된 파일의 전송, 접근, 보관 및 삭제는 해당 제공자 서비스와 사용자의 설정에 영향을 받습니다. 비공개 파일에 보관하고 외부에 공유하지 않도록 주의해 주세요.</p></section>
+<section aria-labelledby="s5"><h2 id="s5">복원 과정의 임시 파일</h2><p>복원할 JSON 파일을 선택하는 동안 앱 내부에 평문 임시 사본이 생성될 수 있습니다. 앱은 검증된 전용 경로의 사본을 처리 후 정리하도록 설계되어 있으나, 취소·오류·강제 종료 등 일부 상황에서는 잔여 사본이 남을 수 있습니다. 기록에 관한 오류 처리 로그나 파일 경로 관련 로그가 운영체제·파일 라이브러리에 남을 가능성도 있습니다. 이 로컬 로그의 존재가 앱 운영자 서버로 기록이 전송된다는 뜻은 아닙니다.</p></section>
+<section aria-labelledby="s6"><h2 id="s6">보관 기간 및 삭제</h2><p>사용자가 삭제하기 전까지 기록은 일반적으로 기기 안에 남습니다. 사용자는 앱에서 개별 기록을 삭제하거나 전체 기록을 비울 수 있습니다. 전체 기록 삭제 시 앱의 기록 저장 내용과 최초 사용일·위젯 요약을 갱신하며, 앱이 확인할 수 있는 복원용 임시 사본은 정리합니다. 다만 사용자가 외부에 저장한 백업 JSON, 다른 서비스에 저장된 파일, 운영체제 차원의 복사본까지 자동으로 삭제하지는 않습니다. 모든 흔적의 물리적 완전 삭제를 보장하지 않습니다.</p></section>
+<section aria-labelledby="s7"><h2 id="s7">제3자 제공 및 데이터 통신</h2><p>현행 앱 소스 및 배포물 감사 범위에서 자체 광고·분석 SDK, 별도 가입 기능 또는 운영자 서버로 사용자 기록을 업로드하는 구현은 발견되지 않았습니다. 사용자가 시스템 파일 선택기에서 외부 저장 제공자를 선택하여 파일을 저장하거나 읽는 기능은 별도로 존재합니다. 기기·OS·외부 파일 제공자의 모든 네트워크 동작이 없다고 단정하는 의미는 아닙니다.</p></section>
+<section aria-labelledby="s8"><h2 id="s8">건강 정보 관련 안내</h2><p>똥이어리는 의료기기가 아닌 생활 기록 앱이며 질병의 진단·치료·치유·예방 기능을 제공하지 않습니다. 앱의 통계와 컨디션은 사용자가 기록한 정보를 요약한 것이며, 미기록일을 기준으로 한 안내는 실제 무배변 상태나 의학적 진단을 확정하지 않습니다. 건강 문제 또는 증상이 지속된다면 의료전문가와 상담하시기 바랍니다.</p></section>
+<section aria-labelledby="s9"><h2 id="s9">처리방침 변경 및 문의</h2><p>서비스 기능이나 데이터 처리 방식이 달라지는 경우 본 방침을 수정할 수 있으며, 변경된 내용과 시행일을 공개 페이지에서 확인할 수 있도록 하겠습니다. 개인정보 관련 문의는 아래의 공개 문의용 이메일로 보내주십시오.</p></section>
+  <div class="meta"><strong>문의: </strong><a href="mailto:hyunjin09391263@gmail.com">hyunjin09391263@gmail.com</a></div>
+</main><footer>© 2026 HYUN Studio · 똥이어리</footer>
+</body></html>
